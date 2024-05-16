@@ -55,7 +55,9 @@ export function useNavigationController() {
           const end = performance.now();
           console.log('performance:', ((end - start) / 1000).toFixed(3));
         })
-        .catch(console.error)
+        .catch(() => {
+          setTreeData(null);
+        })
         .finally(() => {
           setIsLoading(false);
         });

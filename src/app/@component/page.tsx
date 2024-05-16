@@ -27,8 +27,6 @@ export default function Component() {
     );
   }
 
-  console.log('🚀 ~ selectedComponent:', selectedComponent);
-
   return (
     <section className="flex h-full w-full flex-col overflow-auto rounded-sm border">
       <div className="flex h-14 items-center gap-2 border-b px-4 py-3">
