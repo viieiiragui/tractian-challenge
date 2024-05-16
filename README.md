@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-First, run the build command and after the start the server:
+First, run the build command and after start the server:
 
 ```bash
 npm run build && npm run start
